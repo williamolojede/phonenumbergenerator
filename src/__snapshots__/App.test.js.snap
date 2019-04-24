@@ -1,0 +1,101 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<App>
+  <div
+    className="bg-grey-lighter min-h-screen"
+  >
+    <header
+      className="bg-purple-darker p-6 shadow-md"
+    >
+      <div
+        className="container mx-auto"
+      >
+        <h3
+          className="text-white  text-center uppercase text-3xl"
+        >
+          Phone number generator
+        </h3>
+      </div>
+    </header>
+    <main
+      className="p-6 flex flex-col md:flex-row items-center md:items-start"
+    >
+      <section
+        className="container md:max-w-xs"
+      >
+        <div
+          className="bg-white shadow-md p-6 rounded-sm"
+        >
+          <NumbersGeneratorForm
+            handleGeneratedNumbers={[Function]}
+          >
+            <form
+              onSubmit={[Function]}
+            >
+              <p
+                className="uppercase mb-6 text-center text-grey-dark"
+              >
+                Enter the number of phone numbers to be generated
+              </p>
+              <div
+                className="flex justify-between"
+              >
+                <input
+                  className="border-b-2 border-grey-darker text-5xl w-32 text-center"
+                  max="500"
+                  min="10"
+                  required={true}
+                  type="number"
+                />
+                <button
+                  className="border-2 border-grey-darker p-4 w-1/2 text-xl font-bold uppercase text-grey-darker"
+                  type="submit"
+                >
+                  Generate
+                </button>
+              </div>
+            </form>
+          </NumbersGeneratorForm>
+        </div>
+      </section>
+      <section
+        className="container md:ml-6"
+      >
+        <h3
+          className="py-6 md:pt-0 uppercase text-center"
+        >
+          phone number list
+        </h3>
+        <GeneratedNumbersTable
+          numbers={Array []}
+        >
+          <table
+            className="w-full shadow-md"
+          >
+            <thead
+              className="bg-grey-light"
+            >
+              <tr
+                className="text-grey-dark"
+              >
+                <th
+                  className="py-3"
+                >
+                  COUNT
+                </th>
+                <th
+                  className="py-3"
+                >
+                  PHONE NUMBER
+                </th>
+              </tr>
+            </thead>
+            <tbody />
+          </table>
+        </GeneratedNumbersTable>
+      </section>
+    </main>
+  </div>
+</App>
+`;

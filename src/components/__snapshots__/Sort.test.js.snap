@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<Sort
+  handleSort={
+    [MockFunction] {
+      "calls": Array [
+        Array [
+          "asc",
+        ],
+        Array [
+          "dsc",
+        ],
+      ],
+      "results": Array [
+        Object {
+          "isThrow": false,
+          "value": [MockFunction],
+        },
+        Object {
+          "isThrow": false,
+          "value": [MockFunction],
+        },
+      ],
+    }
+  }
+>
+  <div>
+    <p
+      className="uppercase mb-6 text-center text-grey-dark"
+    >
+      Sort
+    </p>
+    <div
+      className="flex justify-center"
+    >
+      <button
+        className="border-2 border-grey-darker p-2 text-xl font-bold uppercase text-grey-darker mr-2"
+        onClick={[MockFunction]}
+      >
+        ASC
+      </button>
+      <button
+        className="border-2 border-grey-darker p-2 text-xl font-bold uppercase text-grey-darker ml-2"
+        onClick={[MockFunction]}
+      >
+        DSC
+      </button>
+    </div>
+  </div>
+</Sort>
+`;

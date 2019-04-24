@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<NumbersGeneratorForm
+  handleGeneratedNumbers={[MockFunction]}
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <p
+      className="uppercase mb-6 text-center text-grey-dark"
+    >
+      Enter the number of phone numbers to be generated
+    </p>
+    <div
+      className="flex justify-between"
+    >
+      <input
+        className="border-b-2 border-grey-darker text-5xl w-32 text-center"
+        max="500"
+        min="10"
+        required={true}
+        type="number"
+      />
+      <button
+        className="border-2 border-grey-darker p-4 w-1/2 text-xl font-bold uppercase text-grey-darker"
+        type="submit"
+      >
+        Generate
+      </button>
+    </div>
+  </form>
+</NumbersGeneratorForm>
+`;

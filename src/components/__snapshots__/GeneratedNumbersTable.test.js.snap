@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<GeneratedNumbersTable
+  numbers={
+    Array [
+      100494045,
+      100547806,
+      101628526,
+      102369825,
+      105988240,
+    ]
+  }
+>
+  <table
+    className="w-full shadow-md"
+  >
+    <thead
+      className="bg-grey-light"
+    >
+      <tr
+        className="text-grey-dark"
+      >
+        <th
+          className="py-3"
+        >
+          COUNT
+        </th>
+        <th
+          className="py-3"
+        >
+          PHONE NUMBER
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        className="border-b border-grey-light text-center text-grey-darker font-bold"
+        key="0"
+      >
+        <td
+          className="py-3"
+        >
+          1
+        </td>
+        <td
+          className="py-3"
+        >
+          0
+          100494045
+        </td>
+      </tr>
+      <tr
+        className="border-b border-grey-light text-center text-grey-darker font-bold"
+        key="1"
+      >
+        <td
+          className="py-3"
+        >
+          2
+        </td>
+        <td
+          className="py-3"
+        >
+          0
+          100547806
+        </td>
+      </tr>
+      <tr
+        className="border-b border-grey-light text-center text-grey-darker font-bold"
+        key="2"
+      >
+        <td
+          className="py-3"
+        >
+          3
+        </td>
+        <td
+          className="py-3"
+        >
+          0
+          101628526
+        </td>
+      </tr>
+      <tr
+        className="border-b border-grey-light text-center text-grey-darker font-bold"
+        key="3"
+      >
+        <td
+          className="py-3"
+        >
+          4
+        </td>
+        <td
+          className="py-3"
+        >
+          0
+          102369825
+        </td>
+      </tr>
+      <tr
+        className="border-b border-grey-light text-center text-grey-darker font-bold"
+        key="4"
+      >
+        <td
+          className="py-3"
+        >
+          5
+        </td>
+        <td
+          className="py-3"
+        >
+          0
+          105988240
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</GeneratedNumbersTable>
+`;

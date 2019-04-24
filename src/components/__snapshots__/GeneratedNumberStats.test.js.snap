@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<GeneratedNumberStats
+  count={500}
+  max={199046623}
+  min={100494045}
+>
+  <ul
+    className="list-reset"
+  >
+    <li
+      className="text-center"
+    >
+      <p
+        className="text-grey-dark"
+      >
+        MIN
+      </p>
+      <p
+        className="mt-3 text-xl font-bold uppercase text-grey-darker"
+      >
+        0
+        100494045
+      </p>
+    </li>
+    <li
+      className="text-center mt-3"
+    >
+      <p
+        className="text-grey-dark"
+      >
+        MAX
+      </p>
+      <p
+        className="mt-3 text-xl font-bold uppercase text-grey-darker"
+      >
+        0
+        199046623
+      </p>
+    </li>
+    <li
+      className="text-center mt-3"
+    >
+      <p
+        className="text-grey-dark"
+      >
+        TOTAL NUMBERS GENERATED
+      </p>
+      <p
+        className="mt-3 text-xl font-bold uppercase text-grey-darker"
+      >
+        500
+      </p>
+    </li>
+  </ul>
+</GeneratedNumberStats>
+`;
